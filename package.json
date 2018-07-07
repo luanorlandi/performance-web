@@ -5,11 +5,13 @@
   "scripts": {
     "gulp": "gulp",
     "start": "http-server site -p 8000",
-    "build": "gulp build",
+    "build": "gulp default",
     "serve": "http-server dist -p 9000",
+    "deploy": "gulp build && ghpages -p dist",
     "rsize": "rsize"
   },
   "devDependencies": {
+    "ghpages": "^0.0.10",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
     "gulp-cli": "^2.0.1",
