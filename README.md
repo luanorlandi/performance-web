@@ -6,13 +6,13 @@
 # install dependencies
 yarn
 
-# run developement mode
+# run development mode
 yarn start
 
 # build to dist/
 yarn build
 
-# run builded version
+# run built version
 yarn serve
 
 # build docker image with nginx
