@@ -5,8 +5,9 @@
   "scripts": {
     "gulp": "gulp",
     "start": "http-server site -p 8000",
-    "build": "gulp copy minify",
-    "serve": "http-server dist -p 9000"
+    "build": "gulp build",
+    "serve": "http-server dist -p 9000",
+    "rsize": "rsize"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
@@ -24,6 +25,7 @@
     "gulp-sequence": "^0.4.5",
     "gulp-uglify": "^1.5.3",
     "gulp-useref": "^3.0.8",
-    "http-server": "^0.11.1"
+    "http-server": "^0.11.1",
+    "img-resize-cli": "^1.1.2"
   }
 }
