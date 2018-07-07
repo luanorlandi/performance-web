@@ -1,7 +1,7 @@
 {
-  "name": "curso-alura-site",
+  "name": "performance-web",
   "version": "0.0.1",
-  "author": "Sérgio Lopes",
+  "author": "Luan Orlandi",
   "scripts": {
     "gulp": "gulp",
     "start": "http-server site -p 8000",
