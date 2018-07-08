@@ -1,4 +1,4 @@
-window.addEventListener('load', function() {
+setTimeout(function(){
 	var newsletterForm = document.querySelector('.footer-newsletter-form');
 	newsletterForm.onsubmit = valida;
 
@@ -19,5 +19,4 @@ window.addEventListener('load', function() {
 			var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 			return re.test(email);
 	}
-
-});
+}, 1000);

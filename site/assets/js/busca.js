@@ -1,4 +1,4 @@
-(function() {
+setTimeout(function(){
 	var botaoBusca = document.querySelector('.header-busca');
 	var body = document.body;
 	var navegacaoForm = document.querySelector('.header-navegacao-form');
@@ -33,4 +33,4 @@
 		botaoBusca.addEventListener('click', toggleSearch);
 		botaoBusca.addEventListener('click', setupCloseSearch);
 	}
-})();
+}, 1000);
