@@ -6,56 +6,42 @@
 
 	<title>Alura | Cursos online de tecnologia</title>
 
-	<link inline rel="stylesheet" href="assets/css/reset.css">
-	<link inline rel="stylesheet" href="assets/css/base.css">
-	<link inline rel="stylesheet" href="assets/css/colors.css">
-	<link inline rel="stylesheet" href="assets/css/font.css">
-	<link inline rel="stylesheet" href="assets/css/block-header-busca.css">
-	<link inline rel="stylesheet" href="assets/css/block-header.css">
-	<link inline rel="stylesheet" href="assets/css/block-buttons.css">
-	<link inline rel="stylesheet" href="assets/css/block-categoriaCard.css">
-	<link inline rel="stylesheet" href="assets/css/block-titulo-destaque.css">
-	<link inline rel="stylesheet" href="assets/css/home-fundo.css">
-	<link inline rel="stylesheet" href="assets/css/home-diferenciais.css">
-	<link inline rel="stylesheet" href="assets/css/home.css">
+	<!-- build:js assets/js/scripts.js -->
+	<script src="assets/js/home.js"></script>
+	<script src="assets/js/menu.js"></script>
+	<script src="assets/js/busca.js"></script>
+	<script src="assets/js/detect.js"></script>
+	<script src="assets/js/footer.js"></script>
+	<!-- endbuild -->
 
-	<!-- build:remove --><noscript><!-- endbuild -->
-	<link rel="preload" href="assets/css/async.css" as="style" onload="this.rel='stylesheet'">
-	<link rel="preload" href="assets/css/home-async.css" as="style" onload="this.rel='stylesheet'">
-	<!-- build:remove --></noscript><!-- endbuild -->
+	<!-- build:css assets/css/estilos.css -->
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/base.css">
+	<link rel="stylesheet" href="assets/css/colors.css">
+	<link rel="stylesheet" href="assets/css/font.css">
 
-	<noscript>
-		<!-- build:css assets/css/async.css -->
-		</noscript>
+	<link rel="stylesheet" href="assets/css/block-buttons.css">
+	<link rel="stylesheet" href="assets/css/block-categoriaCard.css">
+	<link rel="stylesheet" href="assets/css/block-conteudo.css">
+	<link rel="stylesheet" href="assets/css/block-cursoCard.css">
+	<link rel="stylesheet" href="assets/css/block-depoimentos.css">
+	<link rel="stylesheet" href="assets/css/block-elasticMedia.css">
+	<link rel="stylesheet" href="assets/css/block-footer-listaCursos.css">
+	<link rel="stylesheet" href="assets/css/block-footer.css">
+	<link rel="stylesheet" href="assets/css/block-form-erro.css">
+	<link rel="stylesheet" href="assets/css/block-grupoCaelum.css">
+	<link rel="stylesheet" href="assets/css/block-header-busca.css">
+	<link rel="stylesheet" href="assets/css/block-header.css">
+	<link rel="stylesheet" href="assets/css/block-highlighted.css">
+	<link rel="stylesheet" href="assets/css/block-painelPlanos.css">
+	<link rel="stylesheet" href="assets/css/block-titulo-destaque.css">
+	<link rel="stylesheet" href="assets/css/block-titulos.css">
 
-		<link rel="stylesheet" href="assets/css/block-conteudo.css">
-		<link rel="stylesheet" href="assets/css/block-cursoCard.css">
-		<link rel="stylesheet" href="assets/css/block-depoimentos.css">
-		<link rel="stylesheet" href="assets/css/block-elasticMedia.css">
-		<link rel="stylesheet" href="assets/css/block-footer-listaCursos.css">
-		<link rel="stylesheet" href="assets/css/block-footer.css">
-		<link rel="stylesheet" href="assets/css/block-form-erro.css">
-		<link rel="stylesheet" href="assets/css/block-grupoCaelum.css">
-
-		<link rel="stylesheet" href="assets/css/block-highlighted.css">
-		<link rel="stylesheet" href="assets/css/block-painelPlanos.css">
-
-		<link rel="stylesheet" href="assets/css/block-titulos.css">
-
-		<noscript>
-		<!-- endbuild -->
-	</noscript>
-
-	<noscript>
-		<!-- build:css assets/css/home-async.css -->
-		</noscript>
-
-		<link rel="stylesheet" href="assets/css/home-aprenda.css">
-		<link rel="stylesheet" href="assets/css/home-diferenciais.css">
-
-		<noscript>
-		<!-- endbuild -->
-	</noscript>
+	<link rel="stylesheet" href="assets/css/home-aprenda.css">
+	<link rel="stylesheet" href="assets/css/home-diferenciais.css">
+	<link rel="stylesheet" href="assets/css/home-fundo.css">
+	<link rel="stylesheet" href="assets/css/home.css">
+	<!-- endbuild -->
 </head>
 <body>
 
@@ -75,7 +61,7 @@
 	
 	<div class="container">
 		<a class="header-logo" href=".">
-			<img inline src="assets/img/logo-alura.svg" alt="Alura">
+			<img src="assets/img/logo-alura.svg" alt="Alura">
 		</a>
 
 		<div class="header-navegacao">
@@ -151,7 +137,7 @@
 		</a><!--
 	--><!--
 		--><a href="/cursos-online-design-ux" class="categoriaCard-item bg-categoria-design-ux">
-			<svg class="categoriaCard-item-icone"><use xlink:href="assets/img/categorias.svg#designeux"/></svg>
+			<svg class="categoriaCard-item-icone"><use xlink:href="assets/img/categorias.svg#design-ux"/></svg>
 			<h3 class="categoriaCard-item-nome">
 				<div class="categoriaCard-item-nome-cursos">Cursos de</div>
 				Design &amp; UX
@@ -184,8 +170,8 @@
 		<div class="home-diferenciais-video">
 			<h2 class="home-diferenciais-titulo">Aprenda, crie e desenvolva no Alura!</h2>
 			<div class="home-diferenciais-video-wrapper">
-				<div class="elasticMedia-container" data-src="https://player.vimeo.com/video/99185150">
-					
+				<div class="elasticMedia-container">
+					<iframe class="elasticMedia" src="https://player.vimeo.com/video/99185150" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
@@ -293,7 +279,7 @@
 	<!--
 		--><a class="cursoCard" href="https://www.alura.com.br/curso-online-marketing-digital-canais-nao-pagos">
 			<div class="cursoCard-firstRow">
-				<img data-src="assets/img/curso-marketing-digital-canais-nao-pagos.svg" alt="Marketing digital: Introdução aos canais não pagos" class="cursoCard-icone">
+				<img src="assets/img/curso-marketing-digital-canais-nao-pagos.svg" alt="Marketing digital: Introdução aos canais não pagos" class="cursoCard-icone">
 				<div class="cursoCard-nome">Marketing digital: Introdução aos canais não pagos</div>
 			</div>
 			<div class="cursoCard-infos">
@@ -305,7 +291,7 @@
 	--><!--
 		--><a class="cursoCard" href="https://www.alura.com.br/curso-online-marketing-digital-canais-pagos">
 			<div class="cursoCard-firstRow">
-				<img data-src="assets/img/curso-marketing-digital-canais-pagos.svg" alt="Marketing Digital: Introdução aos canais pagos" class="cursoCard-icone">
+				<img src="assets/img/curso-marketing-digital-canais-pagos.svg" alt="Marketing Digital: Introdução aos canais pagos" class="cursoCard-icone">
 				<div class="cursoCard-nome">Marketing Digital: Introdução aos canais pagos</div>
 			</div>
 			<div class="cursoCard-infos">
@@ -317,7 +303,7 @@
 	--><!--
 		--><a class="cursoCard" href="https://www.alura.com.br/curso-online-jsf-primefaces">
 			<div class="cursoCard-firstRow">
-				<img data-src="assets/img/curso-jsf-primefaces.svg" alt="Java e JSF 2 - II: Componentes ricos com Primefaces" class="cursoCard-icone">
+				<img src="assets/img/curso-jsf-primefaces.svg" alt="Java e JSF 2 - II: Componentes ricos com Primefaces" class="cursoCard-icone">
 				<div class="cursoCard-nome">Java e JSF 2 - II: Componentes ricos com Primefaces</div>
 			</div>
 			<div class="cursoCard-infos">
@@ -329,7 +315,7 @@
 	--><!--
 		--><a class="cursoCard" href="https://www.alura.com.br/curso-online-jsf-cdi">
 			<div class="cursoCard-firstRow">
-				<img data-src="assets/img/curso-jsf-cdi.svg" alt="Java e JSF 2 - III: Integração com CDI" class="cursoCard-icone">
+				<img src="assets/img/curso-jsf-cdi.svg" alt="Java e JSF 2 - III: Integração com CDI" class="cursoCard-icone">
 				<div class="cursoCard-nome">Java e JSF 2 - III: Integração com CDI</div>
 			</div>
 			<div class="cursoCard-infos">
@@ -341,7 +327,7 @@
 	--><!--
 		--><a class="cursoCard" href="https://www.alura.com.br/curso-online-jpa-avancado">
 			<div class="cursoCard-firstRow">
-				<img data-src="assets/img/curso-jpa-avancado.svg" alt="Java e JPA: Otimizações com JPA2 e Hibernate" class="cursoCard-icone">
+				<img src="assets/img/curso-jpa-avancado.svg" alt="Java e JPA: Otimizações com JPA2 e Hibernate" class="cursoCard-icone">
 				<div class="cursoCard-nome">Java e JPA: Otimizações com JPA2 e Hibernate</div>
 			</div>
 			<div class="cursoCard-infos">
@@ -353,7 +339,7 @@
 	--><!--
 		--><a class="cursoCard" href="https://www.alura.com.br/curso-online-ingles-para-entrevistas">
 			<div class="cursoCard-firstRow">
-				<img data-src="assets/img/curso-ingles-para-entrevistas.svg" alt="Inglês: Candidate-se a vagas no exterior" class="cursoCard-icone">
+				<img src="assets/img/curso-ingles-para-entrevistas.svg" alt="Inglês: Candidate-se a vagas no exterior" class="cursoCard-icone">
 				<div class="cursoCard-nome">Inglês: Candidate-se a vagas no exterior</div>
 			</div>
 			<div class="cursoCard-infos">
@@ -365,7 +351,7 @@
 	--><!--
 		--><a class="cursoCard" href="https://www.alura.com.br/curso-online-android-studio-ii-integracoes-e-recursos">
 			<div class="cursoCard-firstRow">
-				<img data-src="assets/img/curso-android-studio-ii-integracoes-e-recursos.svg" alt="Android II: Integração com apps e recursos do device" class="cursoCard-icone">
+				<img src="assets/img/curso-android-studio-ii-integracoes-e-recursos.svg" alt="Android II: Integração com apps e recursos do device" class="cursoCard-icone">
 				<div class="cursoCard-nome">Android II: Integração com apps e recursos do device</div>
 			</div>
 			<div class="cursoCard-infos">
@@ -377,7 +363,7 @@
 	--><!--
 		--><a class="cursoCard" href="https://www.alura.com.br/curso-online-design-editorial">
 			<div class="cursoCard-firstRow">
-				<img data-src="assets/img/curso-design-editorial.svg" alt="Design editorial: Criação de materiais gráficos " class="cursoCard-icone">
+				<img src="assets/img/curso-design-editorial.svg" alt="Design editorial: Criação de materiais gráficos " class="cursoCard-icone">
 				<div class="cursoCard-nome">Design editorial: Criação de materiais gráficos </div>
 			</div>
 			<div class="cursoCard-infos">
@@ -395,7 +381,7 @@
 	<!--
 		--><a class="cursoCard" href="https://www.alura.com.br/curso-online-logica-de-programacao">
 			<div class="cursoCard-firstRow">
-				<img data-src="assets/img/curso-logica-de-programacao.svg" alt="Lógica de Programação I: comece na carreira com JavaScript" class="cursoCard-icone">
+				<img src="assets/img/curso-logica-de-programacao.svg" alt="Lógica de Programação I: comece na carreira com JavaScript" class="cursoCard-icone">
 				<div class="cursoCard-nome">Lógica de Programação I: comece na carreira com JavaScript</div>
 			</div>
 			<div class="cursoCard-infos">
@@ -407,7 +393,7 @@
 	--><!--
 		--><a class="cursoCard" href="https://www.alura.com.br/curso-online-html-e-css">
 			<div class="cursoCard-firstRow">
-				<img data-src="assets/img/curso-html-e-css.svg" alt="HTML e CSS: Os seus primeiros passos" class="cursoCard-icone">
+				<img src="assets/img/curso-html-e-css.svg" alt="HTML e CSS: Os seus primeiros passos" class="cursoCard-icone">
 				<div class="cursoCard-nome">HTML e CSS: Os seus primeiros passos</div>
 			</div>
 			<div class="cursoCard-infos">
@@ -419,7 +405,7 @@
 	--><!--
 		--><a class="cursoCard" href="https://www.alura.com.br/curso-online-primeiros-passos-com-java">
 			<div class="cursoCard-firstRow">
-				<img data-src="assets/img/curso-primeiros-passos-com-java.svg" alt="Java I: Primeiros passos" class="cursoCard-icone">
+				<img src="assets/img/curso-primeiros-passos-com-java.svg" alt="Java I: Primeiros passos" class="cursoCard-icone">
 				<div class="cursoCard-nome">Java I: Primeiros passos</div>
 			</div>
 			<div class="cursoCard-infos">
@@ -431,7 +417,7 @@
 	--><!--
 		--><a class="cursoCard" href="https://www.alura.com.br/curso-online-fundamentos-http">
 			<div class="cursoCard-firstRow">
-				<img data-src="assets/img/curso-fundamentos-http.svg" alt="HTTP: Entendendo a web por baixo dos panos" class="cursoCard-icone">
+				<img src="assets/img/curso-fundamentos-http.svg" alt="HTTP: Entendendo a web por baixo dos panos" class="cursoCard-icone">
 				<div class="cursoCard-nome">HTTP: Entendendo a web por baixo dos panos</div>
 			</div>
 			<div class="cursoCard-infos">
@@ -443,7 +429,7 @@
 	--><!--
 		--><a class="cursoCard" href="https://www.alura.com.br/curso-online-introducao-html-css">
 			<div class="cursoCard-firstRow">
-				<img data-src="assets/img/curso-introducao-html-css.svg" alt="HTML5 e CSS3 I: Suas primeiras páginas da Web" class="cursoCard-icone">
+				<img src="assets/img/curso-introducao-html-css.svg" alt="HTML5 e CSS3 I: Suas primeiras páginas da Web" class="cursoCard-icone">
 				<div class="cursoCard-nome">HTML5 e CSS3 I: Suas primeiras páginas da Web</div>
 			</div>
 			<div class="cursoCard-infos">
@@ -455,7 +441,7 @@
 	--><!--
 		--><a class="cursoCard" href="https://www.alura.com.br/curso-online-cordova-phonegap">
 			<div class="cursoCard-firstRow">
-				<img data-src="assets/img/curso-cordova-phonegap.svg" alt="Cordova & PhoneGap: Apps mobile com HTML, CSS e JS" class="cursoCard-icone">
+				<img src="assets/img/curso-cordova-phonegap.svg" alt="Cordova & PhoneGap: Apps mobile com HTML, CSS e JS" class="cursoCard-icone">
 				<div class="cursoCard-nome">Cordova & PhoneGap: Apps mobile com HTML, CSS e JS</div>
 			</div>
 			<div class="cursoCard-infos">
@@ -467,7 +453,7 @@
 	--><!--
 		--><a class="cursoCard" href="https://www.alura.com.br/curso-online-java-e-orientacao-a-objetos">
 			<div class="cursoCard-firstRow">
-				<img data-src="assets/img/curso-java-e-orientacao-a-objetos.svg" alt="Java II: Orientação a Objetos" class="cursoCard-icone">
+				<img src="assets/img/curso-java-e-orientacao-a-objetos.svg" alt="Java II: Orientação a Objetos" class="cursoCard-icone">
 				<div class="cursoCard-nome">Java II: Orientação a Objetos</div>
 			</div>
 			<div class="cursoCard-infos">
@@ -479,7 +465,7 @@
 	--><!--
 		--><a class="cursoCard" href="https://www.alura.com.br/curso-online-angularjs-mvc">
 			<div class="cursoCard-firstRow">
-				<img data-src="assets/img/curso-angularjs-mvc.svg" alt="AngularJS: crie webapps poderosas" class="cursoCard-icone">
+				<img src="assets/img/curso-angularjs-mvc.svg" alt="AngularJS: crie webapps poderosas" class="cursoCard-icone">
 				<div class="cursoCard-nome">AngularJS: crie webapps poderosas</div>
 			</div>
 			<div class="cursoCard-infos">
@@ -676,11 +662,12 @@
 		<div class="footer-column">
 			<div class="footer-newsletter">
 				<h2 class="footer-newsletter-titulo">Receba Novidades e Lançamentos</h2>
+				<form class="footer-newsletter-form" action="https://cursos.alura.com.br/api/cadastra-newsletter" method="POST">
+					<input type="hidden" name="retorno" value="http://localhost:9080/newsletter-cadastrado">
 
-				<div class="footer-newsletter-form">
 					<input type="email" class="footer-newsletter-input" placeholder="e-mail"><!--
-					--><button class="footer-newsletter-button buttonForm">OK</button>
-				</div>
+					--><button type="submit" class="footer-newsletter-button buttonForm">OK</button>
+				</form>
 			</div>
 			<div class="footer-parceiros">
 				<h2 class="footer-parceiros-titulo">Parceiros</h2>
@@ -912,20 +899,6 @@
 		</ul>
 	</div>
 </div>
-
-<script inline src="assets/js/home.js"></script>
-
-<!-- build:js assets/js/scripts.js -->
-<script src="assets/js/loadcss.js"></script>
-<script src="assets/js/cssrelpreload.js"></script>
-<script src="assets/js/menu.js"></script>
-<script src="assets/js/busca.js"></script>
-<script src="assets/js/svg4everybody.js"></script>
-<script src="assets/js/video.js"></script>
-<script src="assets/js/lazyload.js"></script>
-<script src="assets/js/detect.js"></script>
-<script src="assets/js/footer.js"></script>
-<!-- endbuild -->
 
 </body>
 </html>
