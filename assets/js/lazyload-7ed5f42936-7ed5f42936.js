@@ -1,0 +1,1 @@
+var jarodei=!1;window.onscroll=function(){if(!jarodei){jarodei=!0,setTimeout(function(){jarodei=!1},100);for(var e=document.querySelectorAll("img[data-src]"),t=0;t<e.length;t++)e[t].getBoundingClientRect().top<window.innerHeight+200&&(e[t].src=e[t].getAttribute("data-src"))}};
