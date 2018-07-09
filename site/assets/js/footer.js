@@ -2,6 +2,14 @@ window.addEventListener('load', function() {
 	var newsletterForm = document.querySelector('.footer-newsletter-form');
 	newsletterForm.onsubmit = valida;
 
+	var inputEmail = document.querySelector('.footer-newsletter-input');
+	inputEmail.onfocus = function() {
+		var prerender = document.createElement('link');
+		prerender.rel = 'prerender';
+		prerender.href = 'cadastrado.html';
+		document.head.appendChild(prerender);
+	}
+
 	function valida() {
 		var isValid = true;
 		var inputEmail = document.querySelector('.footer-newsletter-input');
